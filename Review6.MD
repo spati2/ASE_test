@@ -47,6 +47,8 @@
   * Extract Features, and select the ones that contribute to risk of delay.
   * Train classifiers.
 + In the following figure label **A** and **B**:
+  * A - precision
+  * B - recall
 
 ![1](https://cloud.githubusercontent.com/assets/1433964/10259938/29db384a-693c-11e5-8163-69f25542da9a.png)
 
