@@ -23,11 +23,12 @@
 
 ![image](https://cloud.githubusercontent.com/assets/1433964/10419861/9b895770-7052-11e5-9fed-77c53a922a20.png)
 <br>
-     * outlook
-     * temperature
-     * humidity
-     * windy
-     * play
++ Features
+  * outlook
+  * temperature
+  * humidity
+  * windy
+  * play
 
 + In a few lines, differentiate regression and classification.
   1. Regression
