@@ -11,14 +11,21 @@ What is the problem with local maxima?
 1. In the following diagram, each square has the same x,y,z axis. What might the names of those x,y,z values?
 ![](https://github.com/timm/sbse14/wiki/etc/img/landscape/WrightFitness.jpg)
 
+body weight, fur thickness, and lifespan 
+
+
 2. Explain the following, using the above diagram:
 
- * Holes
- * Poles
- * Saddles
- * Local minima
- * Flat
- * Brittle
+ * Holes:- Holes are the regions of minima on a landscape. A minima is a region that has values less than that of its neighbours.
+ 
+ * Poles:- Poles are the regions of maxima on a landscape. A minima is a region that has values less than that of its neighbours.
+ 
+ * Saddles:- Saddles are the precarious flat regions between a Hole and a Pole. Tread carefully.
+ 
+ * Local minima:- A minima is a region that has values less than that of its neighbours.
+ * Flat:- Flat is region is a landscape where the value doesnt change. No local maxima or minima
+ * Brittle:- brittleness are solutions that are not robust, meaning that any perturbations to your solution space will result in much worse solutions. So the solutions that are "...even better solution that is surrounded by a set of far less fit solutions."
+
 
 3. Explain the following term and describe how it handles the problem of flat: Retries.
 
