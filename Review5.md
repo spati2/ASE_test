@@ -23,8 +23,17 @@
  + What is elite sampling?
  + Define — stocks, flows
  + What are auxillary variables used for?
+
+ 
+ 
  + Name some python tools that can be used for DSLs.
+
+contextmanager,decorators
+
  + What is an internal DSL?
+
+ Enable business people to write code within a language (e.g. Python) that resembles their domain syntax. 
+
  + Write a compartmental model for the diaper example below:
    
   ![image](https://cloud.githubusercontent.com/assets/1433964/10382520/e3319b44-6df2-11e5-994a-22702be67235.png)
@@ -36,6 +45,7 @@
 
 _________
 
+Directly asked from DSL page
 <img align=right src="https://raw.githubusercontent.com/txt/mase/master/img/pd-icon.png">Copyright © 2015 [Tim Menzies](http://menzies.us).
 This is free and unencumbered software released into the public domain.   
 For more details, see the [license](https://github.com/txt/mase/blob/master/LICENSE.md).
