@@ -18,15 +18,25 @@
   2. Features 
      * Attributes of the input data set
   3. Dependent Varaibles.
+     * Its value is dependant on other variables y = f(x)
 + In the following figure, label features and independent variables:
 
 ![image](https://cloud.githubusercontent.com/assets/1433964/10419861/9b895770-7052-11e5-9fed-77c53a922a20.png)
+     * outlook
+     * temperature
+     * humidity
+     * windy
+     * play
 
 + In a few lines, differentiate regression and classification.
 + What is risk exposure? Give a mathematical expression to calculate it.
 + Sort the steps taken in predicting delays, as proposed by Dr. Hoa:
   * Extract Features, and select the ones that contribute to risk of delay.
   * Characterize the issues that constitute delays.
+  * Train classifiers.
+  Answer
+  * Characterize the issues that constitute delays.
+  * Extract Features, and select the ones that contribute to risk of delay.
   * Train classifiers.
 + In the following figure label **A** and **B**:
 
