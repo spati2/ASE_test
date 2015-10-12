@@ -22,6 +22,7 @@
 + In the following figure, label features and independent variables:
 
 ![image](https://cloud.githubusercontent.com/assets/1433964/10419861/9b895770-7052-11e5-9fed-77c53a922a20.png)
+<br>
      * outlook
      * temperature
      * humidity
@@ -29,11 +30,17 @@
      * play
 
 + In a few lines, differentiate regression and classification.
+  1. Regression
+     * Output will be a possibe infinite numbers.  eg. predicting tomorrow's weather
+  2. Classification
+     * Output will be a discrete label. eg. predicting tomorrow's climate
 + What is risk exposure? Give a mathematical expression to calculate it.
+  * ￼￼￼￼
 + Sort the steps taken in predicting delays, as proposed by Dr. Hoa:
   * Extract Features, and select the ones that contribute to risk of delay.
   * Characterize the issues that constitute delays.
-  * Train classifiers.
+  * Train classifiers. 
+ <br>
   Answer
   * Characterize the issues that constitute delays.
   * Extract Features, and select the ones that contribute to risk of delay.
@@ -43,8 +50,15 @@
 ![1](https://cloud.githubusercontent.com/assets/1433964/10259938/29db384a-693c-11e5-8163-69f25542da9a.png)
 
 + Define networked data
+  * 
 + Briefly describe task networks
-+ Define: 1) Explicit relationship, 2) Implicit relationship (give an example), 3) Resourse based relationship, 4) Attribute based relationship, 5) Content based relationship.
++ Define: 
+1. Explicit relationship,
+   * 
+2. Implicit relationship (give an example)
+3. Resourse based relationship
+4. Attribute based relationship
+5. Content based relationship.
 
 
 _________
