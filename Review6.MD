@@ -50,15 +50,20 @@
 ![1](https://cloud.githubusercontent.com/assets/1433964/10259938/29db384a-693c-11e5-8163-69f25542da9a.png)
 
 + Define networked data
-  * 
+  * Data which has inter relationships. like social media, webpages 
 + Briefly describe task networks
+  Task networks is a directed graph. V - tasks with (id,class and attributes) , E - link type and weights
 + Define: 
-1. Explicit relationship,
-   * 
-2. Implicit relationship (give an example)
-3. Resourse based relationship
-4. Attribute based relationship
-5. Content based relationship.
+ 1. Explicit relationship,
+    * Explicitly mentioned in the task records. Typically determinf in which the tasks need to be performed. eg blockers
+ 2. Implicit relationship (give an example)
+    * They need to be inferred from the other task's information. eg. tasks that share same resource(developer) , tasks that affect the same parts of the code.
+ 3. Resourse based relationship
+    * this type of relationships exists between tasks that share the same (human) resource. two tasks are assigned to the same developer. 
+ 4. Attribute based relationship
+    * tasks can be related if some of their attributes share the same values. tasks that affect the same part of the code. 
+ 5. Content based relationship.
+    * tasks can be similar in terms of how they are conducted and/or what they affect
 
 
 _________
