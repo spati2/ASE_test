@@ -9,8 +9,15 @@
 # Review6: Dr. Dam's Talk
 
 + What are predictive models?
+  * Predictive modeling is a process to create a statistical model of future behavior. Predictive analytics is the area of data mining concerned with forecasting probabilities and trends. 
 + What are rule based models?
-+ Define: 1) Supervised learning; 2) Features; 3) Dependent Varaibles.
+  * Rule-based modeling is a modeling approach that uses a set of rules that indirectly specifies a mathematical model.
++ Define: 
+  1. Supervised learning 
+     * Supervised learning is the machine learning task of inferring a function from labeled training data. The training data consist of a set of training examples. In supervised learning, each example is a pair consisting of an input object (typically a vector) and a desired output value.
+  2. Features 
+     * Attributes of the input data set
+  3. Dependent Varaibles.
 + In the following figure, label features and independent variables:
 
 ![image](https://cloud.githubusercontent.com/assets/1433964/10419861/9b895770-7052-11e5-9fed-77c53a922a20.png)
