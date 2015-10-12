@@ -24,7 +24,8 @@ Stochastic search is a form of unordered search where we make use of fast proces
 
   3. In about 10 lines, write down the pseudo-code for SA. Number each line.
   
- ''' Code
+
+```
   s = s0;e = E0;
   sb = s0;eb = E0;
   k = 0
@@ -60,8 +61,7 @@ s <-snew
 If P(E(s), E(snew), T) ≥ random(0, 1), move to the new state:
 s ← snew
 Output: the final state s
-'''
-
+```
   4. In the pseudo-code for SA, you used a neighbourhood function `Neighbour()`. Write down an expression for this.
   
 
@@ -81,9 +81,15 @@ Output: the final state s
 
   7. How would you terminate a stochastic algorithms such as SA sooner? (*HINT: Look at variances of epochs*)
   
+  1) consider the median values. if within epsilon of some goal, stop
+
+2) compare this era to the last. if no improvement, consider stopping (implementation detail: in my code, i give my optimizers 5 lives.  if no improvement, they lose one life. otherwise, they they five more lives. and i stop early if i run out of lives. but not that "5" is just a magic number i set by "engineering judgement")
   
   8. When finding a solution, you can either mutate towards ''Heaven'' (A better spot) or you can choose to mutate away from "Hell" (A worse spot). Why would you choose one over the other? (*HINT: One of them has a better diversity of search.*)
 
+When you move away from hell, you will get to explore greater number of points, and you are more likely to have a good coverage of the pareto frontier as compared to other way around. Hence, you have 'better diversity of search'.
+
+Yes, you get more options in search space when you start from hell.
 
 _________
 
