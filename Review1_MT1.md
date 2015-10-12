@@ -14,8 +14,9 @@ Can you define the following?
 
 1. Evolutionary algorithms
    1. Genetic algorithms
-   - 
+   	1. In the field of artificial intelligence, a genetic algorithm (GA) is a search heuristic that mimics the process of natural selection. This heuristic (also sometimes called a metaheuristic) is routinely used to generate useful solutions to optimization and search problems
    1. Genetic programsming
+   	1. In artificial intelligence, genetic programming (GP) is an evolutionary algorithm-based methodology inspired by biological evolution to find computer programs that perform a user-defined task. Essentially GP is a set of instructions and a fitness function to measure how well a computer has performed a task.
 1. Evolutionary programs 101
    1. Mutation
       1. Can u give examples of GA mutation? of GP mutation?
