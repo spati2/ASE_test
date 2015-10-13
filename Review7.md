@@ -21,11 +21,15 @@
   * extrapolating factor
 - Write down, in 10 lines or less, pseudo-code for DE. <br>
 ```
-  Let x be agent in the population, n is the dimension of the problem, cf is cross over factor, f is extrapolate factor
-  Initialize all agents X with random positions in the search-space.
-  Until a termination criterion is met (e.g. number of iterations performed, or adequate fitness reached), repeat the following:
+  Let X be agent in the population
+  Let n is the dimension of the problem
+  Let cf is cross over factor
+  Let f is extrapolate factor
+  Termination Criteria (number of iterations performed, or adequate fitness reached)
+  three agents must be distinct from each other as well as from agent x
+  Until a termination criterion is met , repeat the following:
     For each agent x in the X do:
-     Pick three agents a,b, and c from the population at random, they must be distinct from each other as well as from agent x
+     Pick three agents(a,b, and c) from the populaion at random
      if random_num is less than cf:
       create new candidate a + f(b-c)
      else:
