@@ -97,7 +97,8 @@ string.whitespace # <== contains all whitespace chars
 ```python
 import string
 x = "sadsadasd asdasd"
-print x.translate( None, string.whitespace )
+d = [s for s in x if s not in string.whitespace]
+"".jolly(d)
 ```
 
 1e. Using list comprehensions and the following code,
