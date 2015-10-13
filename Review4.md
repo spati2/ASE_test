@@ -7,7 +7,7 @@
 
 
 What is the problem with local maxima?
-
+ 
 1. In the following diagram, each square has the same x,y,z axis. What might the names of those x,y,z values?
 ![](https://github.com/timm/sbse14/wiki/etc/img/landscape/WrightFitness.jpg)
 
@@ -29,11 +29,13 @@ body weight, fur thickness, and lifespan
 
 3. Explain the following term and describe how it handles the problem of flat: Retries.
 
+Retries is a technique by in which if we encounter a scenario where the improvement in the local solution is not substantial. So instead of trudging through such a landscape, retry offer the option of starting our search for a good solution afresh. 
+
 4. How does the following techniques avoid the problems of local maxima?
 
-  Simulated annealing
-    - Retries
-    - Momentum (make sure you explain momentum)
+  Simulated annealing:- crazy jumps
+    - Retries:- with a probability p jump to another region of a landscape
+    - Momentum (make sure you explain momentum):- f a local maximum is reached, the momentum constant would push the inference a little further just to see if anything better lies beyond the current position
   
 5. Local search can be characterized as follows
 
@@ -50,6 +52,15 @@ FOR i = 1 to max-tries DO
     IF  score(solution) > threshold
         THEN  RETURN solution
     FI
+    c = random part of solution 
+    IF    p < random()
+    THEN  change a random setting in c
+    ELSE  change setting in c that maximizes score(solution) 
+    FI
+RETURN failure, best solution found
+```
+
+```
     c = random part of solution 
     IF    p < random()
     THEN  change a random setting in c
